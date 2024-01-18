@@ -79,6 +79,8 @@ public class Main extends JFrame {
 		JMenuItem mntmNewMenuItem_2 = new JMenuItem("Sell");
 		mntmNewMenuItem_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Sell sell = new Sell();
+				sell.setVisible(true);
 			} 
 		});
 		mnNewMenu_1.add(mntmNewMenuItem_2);
